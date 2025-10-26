@@ -1,0 +1,21 @@
+{
+  "default_threshold": 0.72,
+  "labse_threshold": 0.8,
+  "fuzzy_threshold": 85,
+  "debug_cats": [],
+  "fuzzy_on_off": true,
+  "n_cash": 100,
+  "category": {
+    "3": 0.82,
+    "10": 0.75,
+    "259": 0.78,
+    "260": 0.78
+  },
+  "chars_mapping": {
+    "ram": "ram",
+    "rom": "rom",
+    "volume": "volume",
+    "colour": "color",
+    "screen_size": "screen_size"
+  }
+}

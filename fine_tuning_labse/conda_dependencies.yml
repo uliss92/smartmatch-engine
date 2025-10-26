@@ -1,0 +1,62 @@
+# this settings will be applied after running 'build.py'
+# So, you can modify this file, if you need 
+
+
+
+# name: fine_tuning_env
+# dependencies:
+#   - python=3.10.12
+#   - pip
+
+#   - pip:
+#       - torch==2.0.1
+#       - azureml-sdk
+#       - azureml-defaults
+#       - azure-storage-blob
+#       - pandas
+#       - numpy
+#       - loguru
+#       - xlsxwriter
+#       - unidecode
+#       - uritools
+#       - ipython
+#       - sentence_transformers
+#       - python-Levenshtein
+#       - dask
+#       - openpyxl
+#       - python-igraph
+#       - openai
+#       - transformers
+
+
+name: fine_tuning_env
+dependencies:
+  - python=3.10.12
+  - pip
+
+  - pip:
+      - torch==2.1.0
+      - azureml-sdk==1.59.0
+      - azureml-core==1.59.0
+      - azureml-dataprep==5.1.6
+      - azureml-pipeline==1.59.0
+      - azureml-pipeline-core==1.59.0
+      - azureml-pipeline-steps==1.59.0
+      - azureml-dataset-runtime==1.59.0
+      - azure-storage-blob==12.19.1
+      - pandas==2.1.1
+      - numpy<1.24
+      - loguru==0.7.2
+      - xlsxwriter==3.1.9
+      - unidecode==1.3.8
+      - uritools==4.0.2
+      - ipython==8.16.1
+      - sentence-transformers==2.2.2
+      - python-Levenshtein==0.21.1
+      - dask==2023.9.0
+      - openpyxl==3.1.2
+      - python-igraph==0.10.8
+      - openai==1.9.0
+      - transformers==4.34.0
+
+

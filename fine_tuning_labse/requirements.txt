@@ -1,0 +1,36 @@
+# Azure SDK packages
+azure-common
+azure-core
+azure-identity
+azure-mgmt-authorization
+azure-mgmt-core
+azure-mgmt-resource
+azure-mgmt-storage
+
+# Azure Machine Learning packages
+azureml-dataprep
+azureml-fsspec
+azureml-pipeline
+azureml-pipeline-core
+azureml-pipeline-steps
+
+# Azure CLI tools
+azure-cli
+
+# Data processing packages
+pandas
+openpyxl
+fastparquet
+pyarrow
+python-dotenv
+xlsxwriter
+uritools
+
+# Interactive computing
+ipython
+
+# Machine learning and deep learning packages
+scikit-learn
+torch
+tqdm
+transformers
